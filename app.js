@@ -50,6 +50,7 @@ const assignBuzzTrick = function(explorer){
 };
 
 const explorersInNodeAndBuzzTrick = explorersInNode.map((explorer) => assignBuzzTrick(explorer));
+console.log(explorersInNodeAndBuzzTrick)
 
 //Part7: Get a new list of explorers in Node, if the score number is divisible by 3 AND by 5 we need to set a new property called FIZZBUZZ, if not this value should be the same score value
 
@@ -64,5 +65,6 @@ const assignFizzBuzzTrick = function(explorer){
 };
 
 const explorersInNodeAndFizzBuzzTrick = explorersInNode.map((explorer) => assignFizzBuzzTrick(explorer));
+console.log(explorersInNodeAndFizzBuzzTrick)
 
 // Part 8: Get a list of the explorers in node, if the score is divisible by 5 and 3, set the property trick and the value FIZZBUZZ, if is just divisible by 5 set the property trcik and the value BUZZ, if is just divisible by 3 set the property trick and the value FIZZ, otherwise set the property trick and the score value. TODO
